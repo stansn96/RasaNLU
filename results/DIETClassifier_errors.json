@@ -1,0 +1,2244 @@
+[
+  {
+    "text": "Wat is een verklaring van inschrijving?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 38,
+        "value": "verklaring van inschrijving",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 11,
+        "end": 39,
+        "value": "verklaring van inschrijving?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een matching?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "matching",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 20,
+        "value": "matching?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat betekent het als studielink aangeeft dat mijn plaatsingsbewijs vervalt?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "studielink",
+        "entity": "source"
+      },
+      {
+        "start": 50,
+        "end": 66,
+        "value": "plaatsingsbewijs",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 4,
+        "end": 12,
+        "value": "betekent",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 21,
+        "end": 31,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 50,
+        "end": 66,
+        "value": "plaatsingsbewijs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als ik een verkeerde uitschrijvingsdatum in studielink heb ingevuld?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 57,
+        "value": "uitschrijvingsdatum",
+        "entity": "source"
+      },
+      {
+        "start": 61,
+        "end": 71,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 38,
+        "end": 57,
+        "value": "uitschrijvingsdatum",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 61,
+        "end": 71,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik inloggen op studielink vanaf 10 Oktober 2018 als ik nog geen studielinkaccount heb?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "inloggen",
+        "entity": "process"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "studielink",
+        "entity": "destination"
+      },
+      {
+        "start": 40,
+        "end": 55,
+        "value": "10 Oktober 2018",
+        "entity": "date"
+      },
+      {
+        "start": 67,
+        "end": 89,
+        "value": "geen studielinkaccount",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 11,
+        "end": 19,
+        "value": "inloggen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 23,
+        "end": 33,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 40,
+        "end": 55,
+        "value": "10 Oktober 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 72,
+        "end": 89,
+        "value": "studielinkaccount",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik mijn RUG-account activeren?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "RUG-account",
+        "entity": "theme"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "value": "activeren",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 16,
+        "end": 27,
+        "value": "RUG-account",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe meld ik me aan voor een masteropleiding?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "masteropleiding",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 28,
+        "end": 44,
+        "value": "masteropleiding?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe verander ik van studie tijdens het collegejaar?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "studie",
+        "entity": "theme"
+      },
+      {
+        "start": 27,
+        "end": 50,
+        "value": "tijdens het collegejaar",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 4,
+        "end": 12,
+        "value": "verander",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 16,
+        "end": 26,
+        "value": "van studie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 27,
+        "end": 34,
+        "value": "tijdens",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 39,
+        "end": 51,
+        "value": "collegejaar?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe schrijf ik me in bij de RUG?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 31,
+        "value": "RUG",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 28,
+        "end": 32,
+        "value": "RUG?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Studielink geeft aan dat ik mij binnen tien dagen moet inschrijven, omdat anders mijn plaatsingsbewijs vervalt.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Studielink",
+        "entity": "topic"
+      },
+      {
+        "start": 32,
+        "end": 49,
+        "value": "binnen tien dagen",
+        "entity": "condition"
+      },
+      {
+        "start": 86,
+        "end": 102,
+        "value": "plaatsingsbewijs",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 0,
+        "end": 10,
+        "value": "Studielink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 44,
+        "end": 49,
+        "value": "dagen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 74,
+        "end": 80,
+        "value": "anders",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 86,
+        "end": 102,
+        "value": "plaatsingsbewijs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik wil twee studies doen aan de RUG.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "twee studies",
+        "entity": "theme"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "value": "RUG",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 7,
+        "end": 19,
+        "value": "twee studies",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 32,
+        "end": 36,
+        "value": "RUG.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wanneer moet ik me inschrijven als ik vakken wil volgen die pas in het tweede half jaar worden gegeven?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "vakken",
+        "entity": "theme"
+      },
+      {
+        "start": 71,
+        "end": 87,
+        "value": "tweede half jaar",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 38,
+        "end": 44,
+        "value": "vakken",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 71,
+        "end": 77,
+        "value": "tweede",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wanneer zijn de instroommomenten?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 32,
+        "value": "instroommomenten",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Waar vind ik meer informatie als ik een HBO vooropleiding (bachelor en propedeuse) heb gevolgd?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 82,
+        "value": "HBO vooropleiding (bachelor en propedeuse)",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 44,
+        "end": 57,
+        "value": "vooropleiding",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 58,
+        "end": 67,
+        "value": "(bachelor",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 71,
+        "end": 82,
+        "value": "propedeuse)",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie als ik een buitenlandse vooropleiding heb gevolgd?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 66,
+        "value": "buitenlandse vooropleiding",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 53,
+        "end": 66,
+        "value": "vooropleiding",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik me later in het studiejaar inschrijven?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 33,
+        "value": "later in het studiejaar",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 23,
+        "end": 33,
+        "value": "studiejaar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik na uitschrijven langer toegang krijgen tot mijn RUG-account?",
+    "entities": [
+      {
+        "start": 55,
+        "end": 66,
+        "value": "RUG-account",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 10,
+        "end": 22,
+        "value": "uitschrijven",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 46,
+        "end": 49,
+        "value": "tot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 55,
+        "end": 67,
+        "value": "RUG-account?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een deeltijdstudie?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "deeltijdstudie",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 26,
+        "value": "deeltijdstudie?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een duaal student?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "duaal student",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 11,
+        "end": 16,
+        "value": "duaal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 17,
+        "end": 25,
+        "value": "student?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een pre-masterprogramma?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 30,
+        "value": "pre-masterprogramma",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 11,
+        "end": 31,
+        "value": "pre-masterprogramma?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als het niet lukt om via studielink een herinschrijving te doen?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 52,
+        "value": "studielink",
+        "entity": "destination"
+      },
+      {
+        "start": 57,
+        "end": 72,
+        "value": "herinschrijving",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 42,
+        "end": 52,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 57,
+        "end": 72,
+        "value": "herinschrijving",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik mij herinschrijven?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 29,
+        "value": "herinschrijven",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 15,
+        "end": 30,
+        "value": "herinschrijven?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe moet ik mij uitschrijven?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "value": "uitschrijven",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hoe kan ik een RUG-account aanmaken?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "entity": "theme"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "aanmaken",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kom ik aan een nieuwe RUGpas als ik deze kwijt ben geraakt?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "RUGpas",
+        "entity": "theme"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "value": "kwijt",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 26,
+        "end": 32,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik stond vorig studiejaar niet ingeschreven.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "vorig studiejaar",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 9,
+        "end": 25,
+        "value": "vorig studiejaar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik heb mijn RUGpas nodig voor inschrijven bij een studentenvereniging of sportvereniging.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "RUGpas",
+        "entity": "theme"
+      },
+      {
+        "start": 50,
+        "end": 69,
+        "value": "studentenvereniging",
+        "entity": "destination"
+      },
+      {
+        "start": 73,
+        "end": 88,
+        "value": "sportvereniging",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 12,
+        "end": 18,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 50,
+        "end": 69,
+        "value": "studentenvereniging",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 73,
+        "end": 89,
+        "value": "sportvereniging.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wanneer zijn de matchingsdagen?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "value": "matchingsdagen",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 16,
+        "end": 31,
+        "value": "matchingsdagen?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wanneer ontvang ik mijn RUGpas als ik me tijdens het studiejaar inschrijf?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "RUGpas",
+        "entity": "theme"
+      },
+      {
+        "start": 41,
+        "end": 63,
+        "value": "tijdens het studiejaar",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 24,
+        "end": 30,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 41,
+        "end": 63,
+        "value": "tijdens het studiejaar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar kan ik terecht met mijn vragen over het gebruik van studielink?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 67,
+        "value": "gebruik van studielink",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 29,
+        "end": 35,
+        "value": "vragen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 57,
+        "end": 68,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie over vakken, tentamens en boeken?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "vakken",
+        "entity": "theme"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "tentamens",
+        "entity": "theme"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "boeken",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 34,
+        "end": 41,
+        "value": "vakken,",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie als ik een universitaire bachelor heb gevolgd?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 62,
+        "value": "universitaire bachelor",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 40,
+        "end": 53,
+        "value": "universitaire",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 54,
+        "end": 62,
+        "value": "bachelor",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik mijn verzoek tot uitschrijven terugdraaien?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 36,
+        "value": "verzoek tot uitschrijven",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 12,
+        "end": 19,
+        "value": "verzoek",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 37,
+        "end": 50,
+        "value": "terugdraaien?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een voltijdstudie?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "voltijdstudie",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 25,
+        "value": "voltijdstudie?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een RUG-account?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "RUG-account",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 11,
+        "end": 23,
+        "value": "RUG-account?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe zit het met de matching?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "matching",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 19,
+        "end": 28,
+        "value": "matching?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als ik een nieuwe pasfoto op mijn RUGpas wil?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 42,
+        "value": "pasfoto",
+        "entity": "source"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "RUGpas",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 51,
+        "end": 57,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als ik me niet wil herinschrijven?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 50,
+        "value": "herinschrijven",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 36,
+        "end": 51,
+        "value": "herinschrijven?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als mijn persoonsgegevens volgens studielink niet gecontroleerd kunnen worden?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 42,
+        "value": "persoonsgegevens",
+        "entity": "source"
+      },
+      {
+        "start": 51,
+        "end": 61,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 26,
+        "end": 42,
+        "value": "persoonsgegevens",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 51,
+        "end": 61,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik een pasfoto voor de RUGpas uploaden?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "value": "pasfoto",
+        "entity": "theme"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "RUGpas",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 31,
+        "end": 37,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik een RUG-account opheffen?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "entity": "theme"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "opheffen",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe meld ik me aan voor een bacheloropleiding?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 45,
+        "value": "bacheloropleiding",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 28,
+        "end": 46,
+        "value": "bacheloropleiding?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik heb me aangemeld via studielink.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 24,
+        "end": 35,
+        "value": "studielink.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik sta ingeschreven bij de RUG en ik wil me ook inschrijven bij een andere instelling.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 30,
+        "value": "RUG",
+        "entity": "destination"
+      },
+      {
+        "start": 68,
+        "end": 85,
+        "value": "andere instelling",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 27,
+        "end": 30,
+        "value": "RUG",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 68,
+        "end": 86,
+        "value": "andere instelling.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wanneer zijn de vakanties en (religieuze) vrije dagen?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "vakanties",
+        "entity": "topic"
+      },
+      {
+        "start": 29,
+        "end": 53,
+        "value": "(religieuze) vrije dagen",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 16,
+        "end": 25,
+        "value": "vakanties",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 48,
+        "end": 54,
+        "value": "dagen?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe weet ik dat mijn (her)inschrijving in orde is?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 38,
+        "value": "(her)inschrijving",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Waar vind ik meer informatie over uitslag en bewijs van toelating?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 65,
+        "value": "uitslag en bewijs van toelating",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 45,
+        "end": 51,
+        "value": "bewijs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie over de selectie?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 45,
+        "value": "selectie",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 37,
+        "end": 46,
+        "value": "selectie?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie over storingen en onderhoud in studielink?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "storingen",
+        "entity": "theme"
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "value": "onderhoud",
+        "entity": "theme"
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 60,
+        "end": 71,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik mij voor een maand herinschrijven als ik nog maar één onderdeel van mijn opleiding moet afronden?",
+    "entities": [
+      {
+        "start": 57,
+        "end": 70,
+        "value": "één onderdeel",
+        "entity": "condition"
+      },
+      {
+        "start": 80,
+        "end": 89,
+        "value": "opleiding",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 26,
+        "end": 40,
+        "value": "herinschrijven",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 80,
+        "end": 89,
+        "value": "opleiding",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een numerus fixusopleiding?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 33,
+        "value": "numerus fixusopleiding",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 19,
+        "end": 34,
+        "value": "fixusopleiding?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is studielink?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "studielink",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 7,
+        "end": 18,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik mijn adreswijziging doorgeven?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "value": "adreswijziging",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hoe kan ik inloggen op studielink vanaf 10 Oktober 2018 als ik al een studielinkaccount heb?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "inloggen",
+        "entity": "process"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "studielink",
+        "entity": "destination"
+      },
+      {
+        "start": 40,
+        "end": 55,
+        "value": "10 Oktober 2018",
+        "entity": "date"
+      },
+      {
+        "start": 63,
+        "end": 87,
+        "value": "al een studielinkaccount",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 11,
+        "end": 19,
+        "value": "inloggen",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 23,
+        "end": 33,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "date",
+        "start": 40,
+        "end": 55,
+        "value": "10 Oktober 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 70,
+        "end": 87,
+        "value": "studielinkaccount",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik bezwaar aantekenen?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "bezwaar",
+        "entity": "theme"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "value": "aantekenen",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hoe schrijf ik me in voor een pre-masterprogramma?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 49,
+        "value": "pre-masterprogramma",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 30,
+        "end": 50,
+        "value": "pre-masterprogramma?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als ik mij naast de RUG ook bij een andere instelling wil inschrijven?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "naast de RUG",
+        "entity": "condition"
+      },
+      {
+        "start": 53,
+        "end": 70,
+        "value": "andere instelling",
+        "entity": "theme"
+      },
+      {
+        "start": 75,
+        "end": 86,
+        "value": "inschrijven",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 37,
+        "end": 40,
+        "value": "RUG",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 53,
+        "end": 70,
+        "value": "andere instelling",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als ik met één van mijn twee studies aan de RUG wil stoppen?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "value": "studies",
+        "entity": "theme"
+      },
+      {
+        "start": 61,
+        "end": 64,
+        "value": "RUG",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 28,
+        "end": 31,
+        "value": "één",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 41,
+        "end": 53,
+        "value": "twee studies",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 61,
+        "end": 64,
+        "value": "RUG",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik doe twee studies aan de RUG en ik wil met één daarvan stoppen.",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "twee studies",
+        "entity": "theme"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "value": "RUG",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 7,
+        "end": 19,
+        "value": "twee studies",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 27,
+        "end": 30,
+        "value": "RUG",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 45,
+        "end": 48,
+        "value": "één",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mijn studie eindigt.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "studie",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 5,
+        "end": 11,
+        "value": "studie",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 12,
+        "end": 20,
+        "value": "eindigt.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tot wanneer kan ik me inschrijven?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 0,
+        "end": 3,
+        "value": "Tot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe word ik op de hoogte gehouden van mijn inschrijvingsverzoek?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 63,
+        "value": "inschrijvingsverzoek",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 43,
+        "end": 64,
+        "value": "inschrijvingsverzoek?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik het animatiefilmpje over het nieuwe studielink?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 32,
+        "value": "animatiefilmpje",
+        "entity": "theme"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 38,
+        "end": 41,
+        "value": "het",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 49,
+        "end": 60,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie over de studielink stappenplannen?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "value": "studielink",
+        "entity": "destination"
+      },
+      {
+        "start": 48,
+        "end": 62,
+        "value": "stappenplannen",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 37,
+        "end": 47,
+        "value": "studielink",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie als ik een VWO vooropleiding heb gevolgd?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 57,
+        "value": "VWO vooropleiding",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 44,
+        "end": 57,
+        "value": "vooropleiding",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik mijn inschrijving annuleren?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "inschrijving",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 12,
+        "end": 24,
+        "value": "inschrijving",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat zijn uitwisselingsprogramma's?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "value": "uitwisselingsprogramma's",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 9,
+        "end": 34,
+        "value": "uitwisselingsprogramma's?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat is een RUGpas?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "RUGpas",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 11,
+        "end": 18,
+        "value": "RUGpas?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen als er iets mis gaat met mijn aanmelding via studielink?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 57,
+        "value": "aanmelding",
+        "entity": "process"
+      },
+      {
+        "start": 62,
+        "end": 72,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 62,
+        "end": 73,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik geld storten op mijn RUGpas?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "geld",
+        "entity": "source"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "RUGpas",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 32,
+        "end": 39,
+        "value": "RUGpas?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik een RUG-account blokkeren?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "entity": "theme"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "blokkeren",
+        "entity": "process"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 15,
+        "end": 26,
+        "value": "RUG-account",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat moet ik doen nadat ik mij heb aangemeld via studielink?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "aangemeld",
+        "entity": "process"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "destination",
+        "start": 48,
+        "end": 59,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe stel ik mijn gegevens veilig als mijn studie eindigt?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "gegevens",
+        "entity": "theme"
+      },
+      {
+        "start": 42,
+        "end": 56,
+        "value": "studie eindigt",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 42,
+        "end": 48,
+        "value": "studie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoe kan ik mij weer inschrijven als ik vorig studiejaar niet ingeschreven stond?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "value": "inschrijven",
+        "entity": "process"
+      },
+      {
+        "start": 39,
+        "end": 55,
+        "value": "vorig studiejaar",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 39,
+        "end": 55,
+        "value": "vorig studiejaar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik ben mijn RUGpas kwijt.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "RUGpas",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 12,
+        "end": 18,
+        "value": "RUGpas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 19,
+        "end": 25,
+        "value": "kwijt.",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ik ga halverwege het studiejaar aan mijn master beginnen.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 31,
+        "value": "halverwege het studiejaar",
+        "entity": "condition"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "master",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 21,
+        "end": 31,
+        "value": "studiejaar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 41,
+        "end": 47,
+        "value": "master",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Per wanneer word ik uitgeschreven?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "process",
+        "start": 20,
+        "end": 34,
+        "value": "uitgeschreven?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Voor welke datum moet ik mij aanmelden in studielink?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "datum",
+        "entity": "date"
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "value": "studielink",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source",
+        "start": 11,
+        "end": 16,
+        "value": "datum",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 42,
+        "end": 53,
+        "value": "studielink?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wat kan ik doen als ik voor of na matching studiekeuzevragen heb?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 60,
+        "value": "studiekeuzevragen",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 34,
+        "end": 42,
+        "value": "matching",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 43,
+        "end": 60,
+        "value": "studiekeuzevragen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie over selectiepogingen?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 50,
+        "value": "selectiepogingen",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 34,
+        "end": 51,
+        "value": "selectiepogingen?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Waar vind ik meer informatie als ik een andere vooropleiding heb gevolgd?",
+    "entities": [
+      {
+        "start": 40,
+        "end": 60,
+        "value": "andere vooropleiding",
+        "entity": "condition"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 40,
+        "end": 60,
+        "value": "andere vooropleiding",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Als ik geïnteresseerd ben in twee studies, kan ik dan naar twee matchingsdagen?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "twee studies",
+        "entity": "condition"
+      },
+      {
+        "start": 59,
+        "end": 78,
+        "value": "twee matchingsdagen",
+        "entity": "theme"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "theme",
+        "start": 29,
+        "end": 42,
+        "value": "twee studies,",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "theme",
+        "start": 59,
+        "end": 63,
+        "value": "twee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 64,
+        "end": 79,
+        "value": "matchingsdagen?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kan ik alvast een inschrijfbewijs krijgen van de universiteit als ik deze nodig heb om mij in te schrijven bij een studentenvereniging of sportvereniging?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "inschrijfbewijs",
+        "entity": "theme"
+      },
+      {
+        "start": 49,
+        "end": 61,
+        "value": "universiteit",
+        "entity": "source"
+      },
+      {
+        "start": 115,
+        "end": 134,
+        "value": "studentenvereniging",
+        "entity": "destination"
+      },
+      {
+        "start": 138,
+        "end": 153,
+        "value": "sportvereniging",
+        "entity": "destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 49,
+        "end": 61,
+        "value": "universiteit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 115,
+        "end": 134,
+        "value": "studentenvereniging",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "destination",
+        "start": 138,
+        "end": 154,
+        "value": "sportvereniging?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

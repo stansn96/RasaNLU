@@ -1,0 +1,194 @@
+[
+  {
+    "text": "Wat betekent het als studielink aangeeft dat mijn plaatsingsbewijs vervalt?",
+    "intent": "defineQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9836278557777405
+    }
+  },
+  {
+    "text": "Studielink geeft aan dat ik mij binnen tien dagen moet inschrijven, omdat anders mijn plaatsingsbewijs vervalt.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.5312114357948303
+    }
+  },
+  {
+    "text": "Ik wil twee studies doen aan de RUG.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9676584005355835
+    }
+  },
+  {
+    "text": "Wanneer moet ik me inschrijven als ik vakken wil volgen die pas in het tweede half jaar worden gegeven?",
+    "intent": "dateQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.8211318850517273
+    }
+  },
+  {
+    "text": "Wat als de opleiding niet bij me past?",
+    "intent": "personalQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.5677394270896912
+    }
+  },
+  {
+    "text": "Kan ik me later in het studiejaar inschrijven?",
+    "intent": "possibilityQ",
+    "intent_prediction": {
+      "name": "dateQ",
+      "confidence": 0.28214895725250244
+    }
+  },
+  {
+    "text": "Wat is een pre-masterprogramma?",
+    "intent": "defineQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9245045185089111
+    }
+  },
+  {
+    "text": "Ik stond vorig studiejaar niet ingeschreven.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.531573474407196
+    }
+  },
+  {
+    "text": "Ik heb mijn RUGpas nodig voor inschrijven bij een studentenvereniging of sportvereniging.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "possibilityQ",
+      "confidence": 0.8953038454055786
+    }
+  },
+  {
+    "text": "Wanneer zijn de matchingsdagen?",
+    "intent": "dateQ",
+    "intent_prediction": {
+      "name": "defineQ",
+      "confidence": 0.5067415833473206
+    }
+  },
+  {
+    "text": "Waar kan ik terecht met mijn vragen over het gebruik van studielink?",
+    "intent": "personalQ",
+    "intent_prediction": {
+      "name": "possibilityQ",
+      "confidence": 0.35285067558288574
+    }
+  },
+  {
+    "text": "Hoe zit het met de matching?",
+    "intent": "defineQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.8065268993377686
+    }
+  },
+  {
+    "text": "Ik heb me aangemeld via studielink.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.4736483097076416
+    }
+  },
+  {
+    "text": "Ik sta ingeschreven bij de RUG en ik wil me ook inschrijven bij een andere instelling.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9080228209495544
+    }
+  },
+  {
+    "text": "Hoe weet ik dat mijn (her)inschrijving in orde is?",
+    "intent": "personalQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.345110684633255
+    }
+  },
+  {
+    "text": "Kan ik mij voor een maand herinschrijven als ik nog maar één onderdeel van mijn opleiding moet afronden?",
+    "intent": "possibilityQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9724068641662598
+    }
+  },
+  {
+    "text": "Hoe ziet matching er uit?",
+    "intent": "defineQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.7286319732666016
+    }
+  },
+  {
+    "text": "Hoe word ik op de hoogte gehouden van mijn inschrijvingsverzoek?",
+    "intent": "personalQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9844761490821838
+    }
+  },
+  {
+    "text": "Kan ik mijn inschrijving annuleren?",
+    "intent": "possibilityQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9598764181137085
+    }
+  },
+  {
+    "text": "Ik ben mijn RUGpas kwijt.",
+    "intent": "assertQ",
+    "intent_prediction": {
+      "name": "defineQ",
+      "confidence": 0.5563951730728149
+    }
+  },
+  {
+    "text": "Voor welke datum moet ik mij aanmelden in studielink?",
+    "intent": "dateQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9998310804367065
+    }
+  },
+  {
+    "text": "Wat kan ik doen als ik voor of na matching studiekeuzevragen heb?",
+    "intent": "personalQ",
+    "intent_prediction": {
+      "name": "steps_userQ",
+      "confidence": 0.9844759106636047
+    }
+  },
+  {
+    "text": "Als ik geïnteresseerd ben in twee studies, kan ik dan naar twee matchingsdagen?",
+    "intent": "possibilityQ",
+    "intent_prediction": {
+      "name": "dateQ",
+      "confidence": 0.829936683177948
+    }
+  },
+  {
+    "text": "Kan ik alvast een inschrijfbewijs krijgen van de universiteit als ik deze nodig heb om mij in te schrijven bij een studentenvereniging of sportvereniging?",
+    "intent": "possibilityQ",
+    "intent_prediction": {
+      "name": "assertQ",
+      "confidence": 0.5022276639938354
+    }
+  }
+]
